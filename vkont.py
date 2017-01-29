@@ -2,10 +2,10 @@ import requests
 import vk
 from time import sleep
 from send_mess import *
-from telegram_default.selt import query
+#from telegram_default.selt import query
 
-api = vk.API(vk.AuthSession(app_id='5794681', user_login='ilovehloyaproject@gmail.com',
-                            user_password='15457578', scope='messages'))
+api = vk.API(vk.AuthSession(app_id='5794681', user_login='*****',
+                            user_password='******', scope='messages'))
 messages = {}
 classes = (155, 260, 375, 480, 595)
 times_set = {1: "8:00-9:35", 2: "9:45-11:20", 3: "11:40-13:15", 4: "13:25-15:00", 5: "15:20-16:55"}
