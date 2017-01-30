@@ -14,14 +14,14 @@ except ImportError:
     import apiai
 
 #CLIENT_ACCESS_TOKEN = '91af6c62ef9141938f44c391a6173718'
-CLIENT_ACCESS_TOKEN = '*****'
+CLIENT_ACCESS_TOKEN = '6cdc98a1977b4c28a5a08abe1689b069'
 
 
 def send_to_ai(message):
     ai = apiai.ApiAI(CLIENT_ACCESS_TOKEN)
     request = ai.text_request()
     request.lang = 'ru'  # optional, default value equal 'en'
-    request.session_id = "*****"
+    request.session_id = "5da2eed9-7b7b-4fdb-92ad-1949aa187710"
     request.query = str(message)#"привет"
     response = request.getresponse()
     #print(response.read())
